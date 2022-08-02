@@ -1,0 +1,15 @@
+.userClick
+{
+    width:100px;
+}
+.guestClick
+{
+    width:100px;
+}
+.home
+{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
