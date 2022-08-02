@@ -1,0 +1,161 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.logo-top
+{
+  margin:8px 0px 0px 69px;
+}
+.link-top li
+{
+    padding:25px 35px;
+}
+.link-top li a
+{
+    color:black;
+}
+.link-top li:first-child:hover
+{
+    color:#CAC32C;
+}
+.banner
+{
+    background-image: url(img12.png);
+    background-repeat: no-repeat;
+}
+div section
+{
+  padding:80px 5px 20px 40px;
+  width:550px;
+}
+.no-padding
+{
+    padding:0px;
+}
+.backcolor
+{
+    background-color: #F7931E;
+}
+.logo-two
+{
+    margin:20px 10px 30px 140px;
+}
+.banner-para
+{
+    margin-top: 45px;
+    font-size:30px
+}
+.input-box
+{
+    margin: 65px 0px 0px 0px;
+    
+}
+.link-mid li
+{
+    display:inline-block;
+    padding:45px 40px 20px 0px; 
+}
+.link-mid li:nth-child(5)
+{
+    float:right;
+    padding-right:1px;
+}
+.back-img
+{
+  margin:30px 0px;
+  text-align:center;
+}
+.email-width
+{
+    width:340px;
+    height:45px;
+    border-radius:5px;
+}
+.img-contains
+{
+    margin:20px 0px;
+}
+.card-mar
+{
+    margin:20px 0px;
+    box-shadow: 0px 0px 20px #000000;
+}
+.link-bottom li
+{
+    display:inline-block;
+    padding:20px 20px;
+}
+.link-bottom
+{
+    text-align:center;
+}
+.bottom-box
+{
+    background-color: #494D56;
+}
+.img14-box
+{
+    margin:80px 130px;
+    height:40px;
+    width:50px;
+}
+.bottom-link li
+{
+  display:inline-block;
+  column-count: 2;
+  column-gap: 5px;
+  color:white;
+}
+.bottom-link
+{
+    margin-top:50px;
+}
+.bottom-link li:nth-child(6)
+{
+    padding-left:50px;
+}
+.bottom-link li:nth-child(7)
+{
+    margin-top:40px;
+}
+.input-bottom
+{
+    margin:50px 0px;
+}
+.email-bg
+{
+    background-color: #494D56;
+    color:white;
+}
+.btn-war
+{
+    background-color: #CAC32C;
+}
+.template-demo img
+{
+    height:30px;
+    width:40px;
+    background-color: #5D626F;
+    margin-right:10px;
+}
+footer
+{
+    background-color: black;
+    color:white;
+    padding:10px 0px;
+}
+footer ul li
+{
+    display:inline-block;
+    padding:0px 40px;
+}
+footer li:nth-child(2)
+{
+    padding-left:750px;
+}
+.link-top li a:hover
+{
+    color:#CAC32C;
+}
+

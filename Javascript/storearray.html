@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array store</title>
+</head>
+<body>
+      <p>
+        <label>Name:</label>
+        <input type="text" id="name">
+      </p>
+      <p>
+        <label>Place:</label>
+        <input type="text" id="place">
+      </p>
+      <p>
+        <label>Age:</label>
+        <input type="number" id="age">
+      </p>
+      <p>
+        <input type="button" value="Submit" onclick="add()">
+      </p>
+      <script>
+           function add()
+           {
+             var n=document.getElementById("name").value;
+             var p=document.getElementById("place").value;
+             var a=document.getElementById("age").value;
+             var details=[];
+             details.push({n,p,a});
+             for(var i=0;i<details.length;i++)
+             {
+                console.log(details[i]);
+
+             }
+           }
+      </script>
+</body>
+</html>

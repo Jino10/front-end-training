@@ -1,0 +1,17 @@
+.div1
+{
+  height:300px;
+  border:5px dashed blue;
+  text-align:center;
+}
+.div2
+{
+  height:200px;
+  background-color: aqua;
+  margin:50px;
+  text-align: center;
+}
+.divi3
+{
+   font-size: 40px;
+}

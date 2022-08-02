@@ -1,0 +1,45 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.main-block
+{
+    width:60%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:20px;
+    margin:auto;
+}
+header
+{
+    background-color: black;
+    padding:20px 0px;
+    color:white;
+}
+nav
+{
+    background-color: grey;
+    padding:7px 0px;
+    color:white;
+}
+section
+{
+  background-color: white;
+  height:auto;
+  margin:auto;
+}
+.content
+{
+    background-color: grey;
+    padding:150px 0px;
+    color:black;
+    display:inline-block;
+    margin:10px 0px 30px;
+}
+footer
+{
+    background-color: black;
+    padding:20px 0px;
+    color:white; 
+}

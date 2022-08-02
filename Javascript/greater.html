@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+     <title></title>
+     <script>
+        function checkout()
+        {
+          var a=document.getElementById("one").value;
+          var b=document.getElementById("two").value;
+          if(a>b)
+          {
+            alert("a is a large number");
+          }
+          else if(b>a)
+          {
+            alert("b is a large number");
+          }
+          else if(a==b)
+          {
+            alert("a and b are equal");
+          }
+          else
+          {
+            alert("Enter the numbers");
+          }
+        }
+      
+      </script>
+</head>
+<body>
+          <p>
+            <label>Input 1:</label>
+            <input type="number" id="one">
+          </p>
+          <p>
+            <label>Input 2:</label>
+            <input type="number" id="two">
+          </p>
+          <p>
+            <button type="button" onclick="checkout()">Checkout</button>
+          </p>
+</body>
+</html>

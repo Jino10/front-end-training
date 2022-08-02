@@ -1,0 +1,38 @@
+h3
+{
+    color:aqua;
+}
+header 
+{
+  height:70px;
+  border-bottom:3px solid black;
+}
+.imge
+{
+    height:60px;
+    float:left;
+}
+
+ul
+{
+    float:right;
+    border:2px solid black;
+}
+li
+{
+    display:inline-block;
+    border:2px solid black;
+    margin:5px;
+}
+.divi
+{
+    height:340px;
+    width:32%;
+    border:2px solid black;
+    display:inline-block;
+}
+.divii
+{
+    border:1px solid black;
+    text-align:center;
+}

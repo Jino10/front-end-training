@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Using object</title>
+    <script>
+          var details=[
+            {
+                name:"Jino",
+                place:"poothurai",
+                college:"Nehru institute of engineering and technology",
+                degree:"BE"
+            },
+            {
+                name:"Dobin",
+                place:"Chinnathurai",
+                college:"Nehru arts and science college",
+                degree:"B.COM"
+            },
+            {
+                name:"Vijay",
+                place:"Thoothoor",
+                college:"Gerome's college",
+                degree:"BSC"
+            }
+          ];
+          for(var i=0;i<details.length;i++)
+          {
+            document.write(details[i].name+"-");
+            document.write(details[i].place+"-");
+            document.write(details[i].college+"-");
+            document.write(details[i].degree+"-");
+            if(details[i].degree == "B.COM"){
+                document.write( details[i].eligibility+"-false"+"<br/>");
+            }else{
+                document.write( details[i].eligibility+"-true"+"<br/>");  
+            }
+         }
+    </script>
+</head>
+</html>

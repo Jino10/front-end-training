@@ -1,0 +1,22 @@
+#div1
+{
+  height:350px;
+  width:600px;
+  text-align: center;
+  border:2px dotted brown;
+}
+.div2
+{
+  margin-left:500px;
+  background-color:black;
+  border-radius:20px;
+}
+.div2 .img2
+{
+  height:250px;
+  border-radius:10px;
+}
+.img2
+{
+  padding-top:45px;
+}

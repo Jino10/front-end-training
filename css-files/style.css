@@ -1,0 +1,41 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+   margin:10px;
+   text-align: center;
+}
+header
+{
+    background-color: grey;
+    text-transform: capitalize;
+    padding:30px 0px 30px 0px;
+    font-size: 20px;
+}
+nav
+{
+    background-color: grey;
+    text-transform: capitalize;
+    padding:10px 0px 10px 0px;
+    font-size: 20px;
+    margin:7px 0px;
+}
+section
+{
+    background-color: grey;
+    text-transform: capitalize;
+    padding:100px 0px 100px 0px;
+    font-size: 20px;
+    margin:7px 0px;  
+}
+footer
+{
+    background-color: grey;
+    text-transform: capitalize;
+    padding:10px 0px 10px 0px;
+    font-size: 20px;
+    margin:7px 0px;  
+}

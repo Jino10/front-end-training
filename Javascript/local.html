@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local-Storage</title>
+</head>
+<body>
+       <form method="post" action="var.html" onsubmit="local()">
+        <p>
+            <label>Username:</label>
+            <input type="text" id="username">
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" id="password">
+        </p>
+        <p>
+            <input type="checkbox" id="check">Remember me?
+            <input type="button" value="Remove" onclick="del()">
+        </p>
+        <p>
+            <input type="Submit" value="Login">
+        </p>
+      </form>  
+        <script>
+            function local()
+            {
+              var chk=document.getElementById("check");  
+              if(chk.checked==true)
+              { 
+                 var user=document.getElementById("username").value;
+                 var pass=document.getElementById("password").value;
+                 localStorage.setItem("un",user);
+                 localStorage.setItem("ps",pass);
+              }  
+            } 
+            if(localStorage.length>0)
+            {
+                document.getElementById("username").value=localStorage.getItem("un");
+                document.getElementById("password").value=localStorage.getItem("pass");
+            }
+            function del()
+            {
+                localStorage.clear();
+            }
+        </script>
+</body>
+</html>

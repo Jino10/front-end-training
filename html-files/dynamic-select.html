@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic drop-down box</title>
+</head>
+<body>
+     <select id="drop1" onchange="Dropdownlist(drop1,drop2)">
+           <option selected>--Select--</option>
+           <option value="Colours">Colours</option>
+           <option value="Shapes">Shapes</option>
+           <option value="Names">Names</option>
+     </select>
+     <select id="drop2">
+     </select>
+     
+     <script>
+        var ddl1=document.getElementById("drop1");
+        var ddl2=document.getElementById("drop2");
+        function Dropdownlist(ddl1,ddl2)
+        {
+            var colours=["Black","White","Red"];
+            var shapes=["Circle","Dimond","Square"];
+            var names=["Dobin","Vijay","Tavsio"];
+            switch(ddl1.value)
+            {
+                case "Colours" :
+                      ddl2.options.length=0;
+                      for(var i=0;i<colours.length;i++)
+                      {
+                        createOption(ddl2,colours[i],colours[i]);
+                      }
+                      break;
+                case "Shapes" :
+                      ddl2.options.length=0;
+                      for(var i=0;i<shapes.length;i++)
+                      {
+                        createOption(ddl2,shapes[i],shapes[i]);
+                      }
+                      break;
+                 case "Names" :
+                      ddl2.options.length=0;
+                      for(var i=0;i<names.length;i++)
+                      {
+                        createOption(ddl2,names[i],names[i]);
+                      }
+                      break;
+                default:
+                    ddl2.options.length=0;
+                    break;
+            }
+        }
+        function createOption(ddl2,text,value)
+        {
+            var opt=document.createElement("option");
+            opt.text=text;
+            opt.value=value;
+            ddl2.options.add(opt);
+        }
+     </script>
+</body>
+</html>

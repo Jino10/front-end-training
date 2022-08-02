@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var arr=[45,80,9,87,65];
+         var num=arr.map(mapping);
+         function mapping(value,index,array)
+         {
+            return value*2;
+         }
+         document.write(num+"<br/>");
+         var num=arr.filter(filtering);
+         function filtering(value,index,array)
+         {
+            return value>50;
+         }
+         document.write(num);
+    </script>
+</body>
+</html>

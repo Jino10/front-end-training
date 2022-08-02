@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>To calculate a loan</title>
+    <script>
+      function show()
+      {
+           var a=parseInt(document.getElementById("loan").value);
+           var n=parseInt(document.getElementById("inter").value);
+           var d=parseInt(document.getElementById("dur").value);
+           var res=document.getElementById("view");
+           var count=0;
+           for(var i=1;i<=d;i++)
+           {
+             var total=a*i;
+           }
+           for(var i=0;i<d;i++)
+           {
+             count=count+(n*i);
+           }
+           var col=total+count;
+           res.innerText="Total amount is:"+col;
+      }    
+    </script>
+</head>
+<body>
+   <p>
+      Enter the initial loan amount:
+      <input type="number" id="loan">
+   </p>
+   <p>
+      Enter the initial interest amount:
+      <input type="number" id="inter">
+   </p>
+   <p>
+      Enter the total durations in month:
+      <input type="number" id="dur">
+   </p>
+   <p>
+      <input type="button" value="Result" onclick="show()">
+   </p>
+   <h id="view"></h> 
+</body>
+</html>
